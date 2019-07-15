@@ -23,6 +23,7 @@ dependencies {
     testCompile(group = "org.jetbrains.kotlin", name = "kotlin-test", version = "1.3.41")
     testCompile(group = "junit", name = "junit", version = "4.12")
     compile(group = "org.seleniumhq.selenium", name = "selenium-java", version = "3.141.59")
+    compile(group = "com.typesafe", name = "config", version = "1.3.4")
 }
 
 tasks.withType<KotlinCompile> {
